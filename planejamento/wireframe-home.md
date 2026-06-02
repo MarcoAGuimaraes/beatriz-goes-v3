@@ -1,21 +1,14 @@
 # WIREFRAME HOME - BEATRIZ GÓES V3
 
-Versão: 1.0
+Versão 2.0
 
 Objetivo:
 
-Transformar visitantes em:
-
-* Novas alunas
-* Participantes de eventos
-* Interessadas em cursos
-* Contatos comerciais
-
-Sem perder a identidade artística e elegante da marca Beatriz Góes.
+Converter visitantes em alunas, participantes de eventos e clientes de especializações.
 
 ---
 
-# FLUXO DA HOME
+# FLUXO
 
 HEADER
 
@@ -29,11 +22,11 @@ SHOW DE ANIVERSÁRIO
 
 ↓
 
-AULAS REGULARES
+FORMAÇÕES E ESPECIALIZAÇÕES
 
 ↓
 
-CURSOS E ESPECIALIZAÇÕES
+AULAS REGULARES
 
 ↓
 
@@ -41,11 +34,11 @@ QUEM É BEATRIZ
 
 ↓
 
-GALERIA DE DESTAQUE
+GALERIA
 
 ↓
 
-CHAMADA PARA CONTATO
+CONTATO
 
 ↓
 
@@ -53,89 +46,44 @@ FOOTER
 
 ---
 
-# 1. HEADER
+# HERO
 
 Objetivo:
 
-Permitir navegação simples.
-
-Menu:
-
-* Home
-* Sobre
-* Show de Aniversário
-* Contato
-
-Elementos:
-
-* Logo Beatriz Góes
-* Menu Desktop
-* Menu Mobile
-
-CTA opcional:
-
-WhatsApp
-
----
-
-# 2. HERO
-
-Objetivo:
-
-Gerar impacto emocional imediato.
+Impacto emocional imediato.
 
 Imagem:
 
-Foto premium da Beatriz.
+Foto principal da Beatriz.
 
-Texto Principal:
+Título:
 
-Arte.
-Movimento.
-Transformação.
+Dança do Ventre:
+Técnica, Arte e Transformação.
 
-Texto Secundário:
+Texto:
 
 Beatriz Góes
 
 Bailarina, Professora, Coreógrafa e Produtora Cultural.
 
-Botão Principal:
+Especialista em Dança do Ventre Terapêutica.
+
+Botão 1:
 
 Show de Aniversário
 
-Destino:
+Botão 2:
 
-evento.html
-
-Botão Secundário:
-
-Conheça minha trajetória
-
-Destino:
-
-sobre.html
+Seja Minha Aluna
 
 ---
 
-# 3. SHOW DE ANIVERSÁRIO
+# SHOW DE ANIVERSÁRIO
 
 Objetivo:
 
-Promover o principal evento de junho.
-
-Imagem:
-
-Banner oficial do evento.
-
-Título:
-
-Show de Aniversário Beatriz Góes
-
-Texto:
-
-Celebração especial com apresentações,
-participações de alunas e convidados.
+Promover o evento principal.
 
 Data:
 
@@ -143,58 +91,15 @@ Data:
 
 CTA:
 
-Reservar Informações
-
-Destino:
-
-WhatsApp
-
-CTA Secundário:
-
-Ver Detalhes
-
-Destino:
-
-evento.html
+Ver Evento
 
 ---
 
-# 4. AULAS REGULARES
+# FORMAÇÕES E ESPECIALIZAÇÕES
 
 Objetivo:
 
-Converter novas alunas.
-
-Imagem:
-
-Arte "Aulas Regulares".
-
-Título:
-
-Aulas Regulares
-
-Texto:
-
-Turmas presenciais e online.
-
-Desenvolvimento técnico,
-expressão artística e evolução contínua.
-
-CTA:
-
-Quero Saber Mais
-
-Destino:
-
-WhatsApp
-
----
-
-# 5. CURSOS E ESPECIALIZAÇÕES
-
-Objetivo:
-
-Mostrar produtos disponíveis.
+Apresentar os principais produtos.
 
 Formato:
 
@@ -202,116 +107,78 @@ Cards
 
 Card 1
 
-Solo de Percussão
+Especialização em Solo de Percussão
 
 Card 2
 
-Workshops
+Especialização em Rotina Oriental
 
 Card 3
 
-Cursos Especiais
+Workshops Gravados
 
 CTA:
 
-Conheça os Cursos
-
-Destino:
-
-Contato ou WhatsApp
+Saiba Mais
 
 ---
 
-# 6. QUEM É BEATRIZ GÓES
-
-Objetivo:
-
-Construir autoridade.
-
-Imagem:
-
-Foto institucional.
-
-Texto Resumido:
-
-Mais de uma década de dedicação à dança,
-formação artística, ensino e produção cultural.
-
-CTA:
-
-Conheça Minha História
-
-Destino:
-
-sobre.html
-
----
-
-# 7. GALERIA DE DESTAQUE
-
-Objetivo:
-
-Mostrar credibilidade visual.
-
-Conteúdo:
-
-* Espetáculos
-* Festivais
-* Aulas
-* Eventos
-
-Formato:
-
-Grid responsivo.
-
-CTA:
-
-Ver Mais Fotos
-
-Destino:
-
-galeria.html (futuro)
-
----
-
-# 8. CHAMADA PARA CONTATO
+# AULAS REGULARES
 
 Objetivo:
 
 Conversão.
 
-Título:
+Conteúdo:
 
-Vamos conversar?
+Turmas Presenciais
 
-Texto:
+Turmas Online
 
-Entre em contato para aulas,
-eventos, workshops e projetos.
+CTA:
 
-Botão:
-
-Falar no WhatsApp
-
-Destino:
-
-WhatsApp
+Quero Ser Aluna
 
 ---
 
-# 9. FOOTER
+# QUEM É BEATRIZ
 
-Conteúdo:
+Objetivo:
 
-Instagram
+Autoridade.
+
+Resumo da trajetória.
+
+CTA:
+
+Conheça Minha História
+
+---
+
+# GALERIA
+
+Objetivo:
+
+Credibilidade visual.
+
+Fotos:
+
+* Eventos
+* Aulas
+* Espetáculos
+* Bastidores
+
+---
+
+# CONTATO
+
+Objetivo:
+
+Conversão.
+
+Botão principal:
 
 WhatsApp
-
-Email
-
-Copyright
-
-Links rápidos
 
 ---
 
@@ -319,42 +186,14 @@ Links rápidos
 
 1. Hero
 
-2. Show de Aniversário
+2. Evento
 
-3. Aulas Regulares
+3. Especializações
 
-4. Cursos
+4. Aulas
 
-5. Quem é Beatriz
+5. Sobre
 
 6. Galeria
 
 7. Contato
-
----
-
-# OBSERVAÇÕES
-
-A Home NÃO será um currículo.
-
-A Home será uma página de conversão.
-
-O currículo completo ficará em:
-
-sobre.html
-
-O evento principal ficará em:
-
-evento.html
-
-Toda página deverá possuir CTA para WhatsApp.
-
-A identidade visual seguirá a V2:
-
-* elegante
-* sofisticada
-* artística
-* feminina
-* contemporânea
-
-com foco em conversão.

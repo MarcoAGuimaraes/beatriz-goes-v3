@@ -4,24 +4,32 @@
 
 Fortalecer a marca Beatriz Góes e converter visitantes em:
 
-* Alunas
+* Alunas presenciais
+* Alunas online
 * Participantes de eventos
-* Clientes de cursos
+* Clientes de especializações
+* Clientes de workshops
 * Organizadores de eventos
 * Parceiros
 
 ---
 
-# Posicionamento
+# Posicionamento da Marca
 
-Beatriz Góes não é apenas professora.
-
-A marca representa:
+Beatriz Góes representa:
 
 * Bailarina
 * Professora
 * Coreógrafa
 * Produtora Cultural
+
+Especialidade:
+
+Dança do Ventre Técnica e Terapêutica
+
+Proposta de Valor:
+
+Transformação e autoconhecimento através do movimento.
 
 ---
 
@@ -35,7 +43,42 @@ Interesse
 ↓
 WhatsApp
 ↓
-Inscrição
+Matrícula ou Compra
+
+---
+
+# Principais Produtos
+
+## Produto 1
+
+Turmas Regulares
+
+* Presenciais
+* Online
+
+---
+
+## Produto 2
+
+Especialização em Solo de Percussão
+
+---
+
+## Produto 3
+
+Especialização em Rotina Oriental
+
+---
+
+## Produto 4
+
+Workshops Gravados
+
+---
+
+## Produto 5
+
+Eventos e Espetáculos
 
 ---
 
@@ -46,8 +89,8 @@ Inscrição
 Busca:
 
 * Conhecer Beatriz
+* Conhecer metodologia
 * Conhecer aulas
-* Ver resultados
 
 Objetivo:
 
@@ -85,9 +128,9 @@ Reengajamento.
 
 Busca:
 
-* Conhecer currículo
-* Conhecer trajetória
-* Avaliar contratação
+* Currículo
+* Experiência
+* Contratação
 
 Objetivo:
 
@@ -97,100 +140,22 @@ Contato profissional.
 
 # Prioridades Comerciais
 
-## Prioridade 1
+1. Show de Aniversário
 
-Show de Aniversário Beatriz Góes
+2. Turmas Regulares
 
-Junho 2026
+3. Solo de Percussão
 
----
+4. Workshops Gravados
 
-## Prioridade 2
-
-Aulas Regulares
-
-Presenciais e Online
-
----
-
-## Prioridade 3
-
-Cursos de Especialização
-
-Exemplo:
-
-* Solo de Percussão
-
----
-
-## Prioridade 4
-
-Eventos e Festivais
-
-Participações especiais
-Espetáculos
-Produções
-
----
-
-# Estratégia da Home
-
-A Home não será um currículo.
-
-A Home será uma página de conversão.
-
-Objetivos:
-
-1. Apresentar a marca.
-
-2. Destacar o Show de Aniversário.
-
-3. Divulgar aulas.
-
-4. Divulgar cursos.
-
-5. Direcionar para WhatsApp.
-
----
-
-# Estratégia do Sobre
-
-O Sobre será a página de autoridade.
-
-Objetivos:
-
-1. Contar a história.
-
-2. Mostrar experiência.
-
-3. Mostrar formação.
-
-4. Mostrar premiações.
-
-5. Mostrar festivais.
-
-6. Mostrar trajetória profissional.
-
----
-
-# Estratégia do Evento
-
-Objetivos:
-
-1. Divulgar evento atual.
-
-2. Gerar reservas.
-
-3. Gerar participação.
-
-4. Fortalecer a marca Beatriz Góes.
+5. Rotina Oriental
 
 ---
 
 # Indicadores de Sucesso
 
 * Cliques no WhatsApp
-* Reservas para eventos
 * Novas alunas
-* Contatos recebidos
-* Tempo de permanência no site
+* Vendas de cursos
+* Participantes em eventos
+* Tempo de permanência
