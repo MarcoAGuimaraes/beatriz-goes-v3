@@ -1,30 +1,128 @@
-# Backlog V3
+# Backlog - Beatriz Góes V3
 
-## Sprint 1
+## STATUS DO PROJETO
 
-* [ ] Definir sitemap
+Início: Junho/2026
+
+Evento Principal:
+Show de Aniversário Beatriz Góes
+
+Data:
+19/06/2026
+
+---
+
+# SPRINT 1
+
+Objetivo:
+
+Estruturar conteúdo e wireframes.
+
+### Planejamento
+
+* [x] Sitemap
+* [x] Arquitetura da Informação
+
+### Organização
+
 * [ ] Organizar imagens
-* [ ] Organizar textos
-* [ ] Criar Home
-* [ ] Criar Sobre
+* [ ] Organizar textos da cliente
+* [ ] Selecionar fotos principais
 
-## Sprint 2
+### Wireframes
 
-* [ ] Criar Show de Aniversário
-* [ ] Criar Contato
-* [ ] Ajustar Mobile
+* [ ] Home
+* [ ] Sobre
+* [ ] Evento
+* [ ] Contato
 
-## Sprint 3
+---
 
-* [ ] SEO
-* [ ] Performance
-* [ ] Testes
-* [ ] Deploy
+# SPRINT 2
 
-## Pós-Evento
+Objetivo:
 
+Desenvolvimento das páginas.
+
+### Home
+
+* [ ] Estrutura HTML
+* [ ] Hero
+* [ ] Evento destaque
+* [ ] Aulas
 * [ ] Cursos
-* [ ] Agenda
-* [ ] Companhia
-* [ ] Depoimentos
+* [ ] CTA WhatsApp
+
+### Sobre
+
+* [ ] Estrutura HTML
+* [ ] Timeline
 * [ ] Galeria
+* [ ] Experiência
+
+### Evento
+
+* [ ] Estrutura HTML
+* [ ] Banner
+* [ ] Informações
+* [ ] Reservas
+
+### Contato
+
+* [ ] Estrutura HTML
+* [ ] WhatsApp
+* [ ] Instagram
+* [ ] Formulário
+
+---
+
+# SPRINT 3
+
+Objetivo:
+
+Qualidade.
+
+### Mobile First
+
+* [ ] Testes Android
+* [ ] Testes iPhone
+
+### Performance
+
+* [ ] Compressão imagens
+* [ ] Lazy Loading
+
+### SEO
+
+* [ ] Meta Title
+* [ ] Meta Description
+* [ ] Open Graph
+
+### Produção
+
+* [ ] Publicação
+* [ ] Validação final cliente
+
+---
+
+# FUTURAS VERSÕES
+
+## Cursos
+
+* [ ] Página exclusiva
+
+## Agenda
+
+* [ ] Calendário
+
+## Galeria
+
+* [ ] Galeria avançada
+
+## Companhia
+
+* [ ] Página institucional
+
+## Depoimentos
+
+* [ ] Área de alunas
