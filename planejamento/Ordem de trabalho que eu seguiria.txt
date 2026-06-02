@@ -1,0 +1,16 @@
+1. sitemap.md
+2. arquitetura.md
+3. backlog.md
+4. textos-cliente.md
+
+↓ APROVADO
+
+5. Wireframe Home
+6. Wireframe Sobre
+7. Wireframe Evento
+
+↓ APROVADO
+
+8. HTML
+9. CSS
+10. JavaScript
