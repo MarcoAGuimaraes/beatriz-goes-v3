@@ -1,136 +1,92 @@
-
 /* ==========================================
 HEADER
 ========================================== */
 
 .site-header {
 
-position: sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 
-top: 0;
-
-z-index: var(--z-header);
-
-background: var(--bg-primary);
-
-border-bottom:
-1px solid var(--border-soft);
+  background: #000;
+  border-bottom: 1px solid rgba(255,255,255,.10);
 
 }
-
-/* ==========================================
-CONTAINER
-========================================== */
 
 .header-container {
 
-display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-align-items: center;
-
-justify-content: space-between;
-
-min-height: var(--header-height);
+  min-height: 80px;
 
 }
 
-/* ==========================================
-LOGO
-========================================== */
+/* LOGO */
 
 .logo {
 
-color: var(--text-primary);
-
-font-family: var(--title-font);
-
-font-size: 1.4rem;
-
-font-weight: 600;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
 
 }
 
-.logo:hover {
-
-color: var(--accent-color);
-
-}
-
-/* ==========================================
-MENU MOBILE
-========================================== */
+/* BOTÃO HAMBURGUER */
 
 .menu-toggle {
 
-background: none;
+  background: none;
+  border: none;
 
-border: none;
+  color: #fff;
 
-color: var(--text-primary);
+  font-size: 2rem;
 
-font-size: 2rem;
-
-cursor: pointer;
+  cursor: pointer;
 
 }
 
-/* ==========================================
-MENU
-========================================== */
+/* MENU MOBILE */
 
 .main-nav {
 
-display: none;
+  display: none;
 
 }
 
 .main-nav.active {
 
-display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 
-position: absolute;
+  position: absolute;
 
-top: var(--header-height);
+  top: 80px;
+  left: 0;
 
-left: 0;
+  width: 100%;
 
-width: 100%;
-
-background: var(--bg-primary);
-
-border-bottom:
-1px solid var(--border-soft);
+  background: #000;
 
 }
 
 .main-nav ul {
 
-display: flex;
-
-flex-direction: column;
-
-}
-
-.main-nav li {
-
-border-bottom:
-1px solid var(--border-soft);
+  display: flex;
+  flex-direction: column;
 
 }
 
 .main-nav a {
 
-display: block;
+  display: block;
 
-padding: 1rem;
+  padding: 1rem;
 
-color: var(--text-primary);
-
-}
-
-.main-nav a:hover {
-
-color: var(--accent-color);
+  color: #fff;
 
 }
 
@@ -140,46 +96,41 @@ DESKTOP
 
 @media (min-width: 768px) {
 
-.menu-toggle {
+  .menu-toggle {
 
-```
-display: none;
-```
+    display: none;
 
+  }
+
+ .main-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+
+    background: #050505;
+
+    padding: 1.5rem;
+
+    border-top: 1px solid rgba(255,255,255,.08);
+
+    z-index: 999;
 }
 
-.main-nav {
+  .main-nav ul {
 
-```
-display: block;
-```
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
 
-}
+  }
 
-.main-nav ul {
+  .main-nav a {
 
-```
-flex-direction: row;
+    padding: 0;
 
-gap: 2rem;
-```
-
-}
-
-.main-nav li {
-
-```
-border: none;
-```
-
-}
-
-.main-nav a {
-
-```
-padding: 0;
-```
-
-}
+  }
 
 }
