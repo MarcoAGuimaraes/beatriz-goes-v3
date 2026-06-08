@@ -97,40 +97,27 @@ DESKTOP
 @media (min-width: 768px) {
 
   .menu-toggle {
-
     display: none;
-
   }
 
- .main-nav {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-
-    width: 100%;
-
-    background: #050505;
-
-    padding: 1.5rem;
-
-    border-top: 1px solid rgba(255,255,255,.08);
-
-    z-index: 999;
-}
+  .main-nav {
+    display: block;
+    position: static;
+    width: auto;
+    background: transparent;
+    padding: 0;
+    border: 0;
+  }
 
   .main-nav ul {
-
     display: flex;
     flex-direction: row;
     gap: 2rem;
-
+    align-items: center;
   }
 
   .main-nav a {
-
     padding: 0;
-
   }
 
 }
