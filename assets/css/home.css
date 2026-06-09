@@ -44,7 +44,7 @@
 
     position: absolute;
 
-    bottom: 60px;
+    bottom: 90px;
     left: 50%;
 
     transform: translateX(-50%);
@@ -151,8 +151,8 @@
 
     .hero-content {
 
-        /* bottom: 100px; */
-        bottom:220px;
+        bottom: 120px; 
+        
 
     }   
 
