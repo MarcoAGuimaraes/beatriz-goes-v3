@@ -96,3 +96,159 @@
   --z-modal: 1200;
 
 }
+
+/* =====================================
+   BREAKPOINTS OFICIAIS V3
+   -------------------------------------
+   MOBILE  : até 480px
+   TABLET  : 481px até 768px
+   DESKTOP : 769px até 1440px
+   TV      : acima de 1440px
+
+   BLOCO TEMPORÁRIO DE DEBUG
+   REMOVER APÓS HOMOLOGAÇÃO
+===================================== */
+
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+
+  body {
+    outline: 6px solid red;
+  }
+
+  body::before {
+
+    content: "MOBILE";
+
+    position: fixed;
+
+    top: 10px;
+    left: 10px;
+
+    z-index: 99999;
+
+    padding: 8px 12px;
+
+    background: red;
+
+    color: white;
+
+    font-size: 12px;
+
+    font-family: Arial, sans-serif;
+
+    border-radius: 8px;
+
+  }
+
+}
+
+
+/* TABLET */
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  body {
+    outline: 6px solid blue;
+  }
+
+  body::before {
+
+    content: "TABLET";
+
+    position: fixed;
+
+    top: 10px;
+    left: 10px;
+
+    z-index: 99999;
+
+    padding: 8px 12px;
+
+    background: blue;
+
+    color: white;
+
+    font-size: 12px;
+
+    font-family: Arial, sans-serif;
+
+    border-radius: 8px;
+
+  }
+
+}
+
+
+/* DESKTOP */
+
+@media (min-width: 769px) and (max-width: 1440px) {
+
+  body {
+    outline: 6px solid green;
+  }
+
+  body::before {
+
+    content: "DESKTOP";
+
+    position: fixed;
+
+    top: 10px;
+    left: 10px;
+
+    z-index: 99999;
+
+    padding: 8px 12px;
+
+    background: green;
+
+    color: white;
+
+    font-size: 12px;
+
+    font-family: Arial, sans-serif;
+
+    border-radius: 8px;
+
+  }
+
+}
+
+
+/* TV */
+
+@media (min-width: 1441px) {
+
+  body {
+    outline: 6px solid orange;
+  }
+
+  body::before {
+
+    content: "TV";
+
+    position: fixed;
+
+    top: 10px;
+    left: 10px;
+
+    z-index: 99999;
+
+    padding: 8px 12px;
+
+    background: orange;
+
+    color: black;
+
+    font-size: 12px;
+
+    font-family: Arial, sans-serif;
+
+    border-radius: 8px;
+
+  }
+
+}
