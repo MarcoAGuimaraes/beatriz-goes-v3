@@ -1,42 +1,126 @@
-/* ========================================
-   CONTATO
-======================================== */
-
-.contato-page {
-
-  --section-accent:
-    var(--accent-color);
-
-}
-
-/* ========================================
-   HERO CONTATO
-======================================== */
-
 .contato-hero {
 
+    position: relative;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 8rem 2rem;
+
+    background-image:
+        url("../img/contato/hero-contato.jpg");        
+
+    background-position: center top;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
 }
 
-/* ========================================
-   INFORMAÇÕES
-======================================== */
+.contato-hero::before {
 
-.contato-info {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(0,0,0,.60);
+
+}
+.contato-container {
+   position: relative;
+   z-index: 2;
+   max-width: 900px;
 
 }
 
-/* ========================================
-   FORMULÁRIO
-======================================== */
+.contato-tag {
 
-.contato-form {
+    display: inline-block;
+
+    margin-bottom: 1rem;
+
+    letter-spacing: .20rem;
+
+    color: var(--accent-color);
 
 }
 
-/* ========================================
-   REDES SOCIAIS
-======================================== */
+.contato-hero h1 {
 
-.redes-sociais {
+    font-size: clamp(3rem, 6vw, 5rem);
+
+    margin-bottom: 1rem;
+
+}
+
+.contato-hero p {
+
+    font-size: 1.25rem;
+
+    color: var(--text-secondary);
+
+    line-height: 1.7;
+
+}
+
+@media (max-width: 768px){
+
+    .contato-hero h1{
+
+        font-size: 3.2rem;
+
+        line-height: 1.1;
+
+    }
+
+    .contato-hero p{
+
+        max-width: 320px;
+
+        margin: 0 auto;
+
+        font-size: 1.15rem;
+
+    }
+
+}
+
+@media (min-width: 1024px){
+
+    .contato-hero{
+
+        background-size: contain;
+
+        background-position: center top;
+
+        background-color: #111;
+
+    }
+
+    .contato-container{
+
+        max-width: 650px;
+
+        margin: 0 auto;
+
+    }
+
+    .contato-hero h1{
+
+        font-size: 4rem;
+
+        line-height: 1.1;
+
+    }
 
 }
