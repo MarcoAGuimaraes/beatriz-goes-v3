@@ -55,25 +55,74 @@
             <p>
                 Preencha seus dados e entraremos em contato para apresentar as aulas e tirar suas dúvidas.
             </p>
-
-            <form class="lead-form">
+            
+            <form
+                id="contact-form"
+                class="lead-form"
+            >
 
                 <input
                     type="text"
-                    placeholder="Seu nome"
+                    name="nome"
+                    placeholder="Nome completo"
                     required
                 >
 
                 <input
                     type="tel"
+                    name="whatsapp"
                     placeholder="WhatsApp"
                     required
                 >
 
                 <input
                     type="email"
+                    name="email"
                     placeholder="E-mail"
                 >
+
+                <input
+                    type="text"
+                    name="cidade"
+                    placeholder="Cidade"
+                >
+
+                <select
+                    name="interesse"
+                    required
+                >
+                    <option
+                        value=""
+                        selected
+                        disabled
+                    >
+                        Tenho interesse em...
+                    </option>
+
+
+                    <option value="Aula Presencial">
+                        Aula Presencial
+                    </option>
+
+                    <option value="Aula Online">
+                        Aula Online
+                    </option>
+
+                    <option value="Workshop">
+                        Workshop
+                    </option>
+
+                    <option value="Evento">
+                        Evento
+                    </option>
+
+                </select>
+
+                <textarea
+                    name="mensagem"
+                    rows="5"
+                    placeholder="Conte um pouco sobre você..."
+                ></textarea>
 
                 <button type="submit">
                     Quero fazer parte
@@ -144,9 +193,15 @@
     <div id="footer-container"></div>
     <div id="whatsapp-container"></div>
 
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
     <script src="./assets/js/components.js"></script>
+
     <script src="./assets/js/menu.js"></script>
+
     <script src="./assets/js/main.js"></script>
+
+    <script src="./assets/js/forms/contato-form.js"></script>
 
 </body>
 

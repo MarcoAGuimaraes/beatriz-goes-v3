@@ -261,3 +261,51 @@
     font-weight: 600;
 
 }
+
+/* ==========================================
+   CAMPOS FORMULÁRIO
+========================================== */
+/* ==========================================
+   NOVOS CAMPOS
+========================================== */
+
+.lead-form select,
+.lead-form textarea {
+
+    width: 100%;
+
+    padding: 1rem;
+
+    border-radius: 12px;
+
+    border: 1px solid rgba(255,255,255,.15);
+
+    background: rgba(255,255,255,.05);
+
+    color: #fff;
+}
+
+.lead-form textarea {
+
+    resize: vertical;
+
+    min-height: 120px;
+}
+
+/* ==========================================
+   SELECT - CORREÇÃO
+========================================== */
+
+.lead-form select {
+
+    color: #ffffff;
+
+}
+
+.lead-form select option {
+
+    background: #111111;
+
+    color: #ffffff;
+
+}
