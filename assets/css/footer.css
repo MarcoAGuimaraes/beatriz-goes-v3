@@ -91,3 +91,37 @@
 
 }
 
+
+.social-icons {
+
+  display: flex;
+
+  gap: 1rem;
+
+  align-items: center;
+
+}
+
+.social-icons li {
+
+  margin: 0;
+
+}
+
+.social-icons img {
+
+  width: 24px;
+
+  height: 24px;
+
+  display: block;
+
+  transition: .3s ease;
+
+}
+
+.social-icons img:hover {
+
+  transform: scale(1.10);
+
+}
