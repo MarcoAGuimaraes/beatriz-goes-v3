@@ -1,66 +1,165 @@
-/* ========================================
-   SOBRE
-======================================== */
 
-.sobre-page {
+.sobre-hero{
 
-  --section-accent:
-    #c99a5e;
+    position:relative;
 
-}
+    min-height:90vh;
 
-/* ========================================
-   HERO SOBRE
-======================================== */
+    display:flex;
 
-.sobre-hero {
+    align-items:center;
 
-}
+    justify-content:center;
 
-/* ========================================
-   BIOGRAFIA
-======================================== */
+    text-align:center;
 
-.biografia {
+    background-image:
 
-}
+        url("../img/sobre/img_sobre_hero.webp");
 
-/* ========================================
-   TIMELINE
-======================================== */
+    background-size:cover;
 
-.timeline {
+    /*background-position:center;*/
+    background-position: top;
+
+    background-repeat:no-repeat;
 
 }
 
-/* ========================================
-   FORMAÇÃO
-======================================== */
+.sobre-overlay{
 
-.formacao {
+    position:absolute;
 
-}
+    inset:0;
 
-/* ========================================
-   GRUPOS
-======================================== */
+    background:
 
-.grupos {
+        rgba(0,0,0,.55);
 
 }
 
-/* ========================================
-   CERTIFICAÇÕES
-======================================== */
+.sobre-hero-content{
 
-.certificacoes {
+    position:relative;
+
+    z-index:10;
+
+    max-width:800px;
 
 }
 
-/* ========================================
-   METODOLOGIA
-======================================== */
+.sobre-tag{
+  color:var(--accent-color);
+  letter-spacing:2px;
+}
+.sobre-hero h1{
+  font-family:var(--title-font);
+  font-size:clamp(2.5rem,6vw,4.5rem);
+  margin:1rem 0;
+}
+.sobre-section{
+  padding:2rem 0;
+}
+.sobre-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:2rem;
+  align-items:center;
+}
+.sobre-image img{
+  width:100%;
+  border-radius:var(--radius-medium);
 
-.metodologia {
+  min-height:420px;
 
+  object-fit:cover;
+
+}
+.sobre-content h2{
+  font-family:var(--title-font);
+  margin-bottom:1rem;
+}
+
+.sobre-valores{
+
+    padding:6rem 0;
+
+    text-align:center;
+
+}
+
+.sobre-valores h2{
+
+    margin-bottom:3rem;
+
+    font-family:var(--title-font);
+
+    font-size:clamp(2rem,4vw,3rem);
+
+}
+
+.valores-grid{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(220px,1fr));
+
+    gap:2rem;
+
+    align-items:stretch;
+
+}
+
+.valor-card{
+
+    background: linear-gradient(
+        135deg,
+        #d6b36a 0%,
+        #c89f4b 45%,
+        #e5c98a 100%
+    );
+
+    color:#111;
+
+    padding:2rem;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    font-weight:700;
+
+    font-size:1.1rem;
+
+    cursor:pointer;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.25);
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+
+}
+
+.valor-card:hover{
+
+    transform:
+        translateY(-8px);
+
+    box-shadow:
+        0 20px 40px rgba(214,179,106,.35);
+
+}
+.sobre-cta{
+  padding:5rem 0;
+  text-align:center;
+}
+@media(min-width:769px){
+  .sobre-grid{
+    grid-template-columns:1fr 1fr;
+  }
+  .sobre-grid.reverse .sobre-content{order:1;}
+  .sobre-grid.reverse .sobre-image{order:2;}
 }
