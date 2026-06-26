@@ -1,58 +1,928 @@
-/* ========================================
-   EVENTO ESPECIAL
-======================================== */
+/* ==========================================================
+   EVENTO.CSS
+   Página Eventos
+   Projeto Beatriz Góes
+   Versão 3.3
+========================================================== */
 
-.evento-page {
 
-  --section-accent:
-    #e0a52b;
+/* ==========================================================
+   01 - CONFIGURAÇÕES GERAIS
+========================================================== */
 
-}
+.evento-page{
 
-/* ========================================
-   BANNER PRINCIPAL
-======================================== */
+    background: var(--bg-primary);
 
-.event-banner {
-
-}
-
-/* ========================================
-   CONTAGEM REGRESSIVA
-======================================== */
-
-.contagem {
+    color: var(--text-primary);
 
 }
 
-/* ========================================
-   PROGRAMAÇÃO
-======================================== */
 
-.programacao {
+.evento-page section{
 
-}
-
-/* ========================================
-   LOCAL
-======================================== */
-
-.local {
+    padding: 7rem 0;
 
 }
 
-/* ========================================
-   INSCRIÇÕES
-======================================== */
 
-.inscricoes {
+.evento-page .container{
+
+    width: var(--container);
+
+    margin: auto;
 
 }
 
-/* ========================================
-   GALERIA EVENTO
-======================================== */
 
-.galeria-evento {
+.evento-page h1{
+
+    font-family: var(--title-font);
+
+    font-size: clamp(3rem,6vw,5rem);
+
+    line-height: 1.05;
+
+    margin-bottom: 1.5rem;
+
+}
+
+
+.evento-page h2{
+
+    font-family: var(--title-font);
+
+    font-size: clamp(2rem,4vw,3rem);
+
+    margin-bottom: 2rem;
+
+    color: var(--text-primary);
+
+}
+
+
+.evento-page h3{
+
+    font-size:1.35rem;
+
+    margin-bottom:.75rem;
+
+    color:var(--text-primary);
+
+}
+
+
+.evento-page p{
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+
+    font-size:1.05rem;
+
+}
+
+
+
+/* ==========================================================
+   BOTÕES
+========================================================== */
+
+.evento-page .btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:16px 34px;
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+
+.evento-page .btn-primary{
+
+    background:var(--accent-color);
+
+    color:#111;
+
+}
+
+
+.evento-page .btn-primary:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:var(--shadow-medium);
+
+}
+
+
+
+/* ==========================================================
+   02 - HERO
+========================================================== */
+
+.evento-hero{
+
+    position:relative;
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    overflow:hidden;
+
+    background:
+
+    linear-gradient(
+
+    rgba(0,0,0,.60),
+
+    rgba(0,0,0,.75)
+
+    ),
+
+    url("../img/evento/evento_hero.webp");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+
+.evento-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+    radial-gradient(
+
+    rgba(214,179,106,.15),
+
+    transparent 70%
+
+    );
+
+}
+
+
+.evento-hero-content{
+
+    position:relative;
+
+    z-index:5;
+
+    max-width:700px;
+
+    padding:2rem 0;
+
+}
+
+
+.evento-tag{
+
+    display:inline-block;
+
+    color:var(--accent-color);
+
+    text-transform:uppercase;
+
+    letter-spacing:4px;
+
+    margin-bottom:1rem;
+
+    font-size:.95rem;
+
+}
+
+
+.evento-hero p{
+
+    margin-bottom:2.5rem;
+
+    max-width:650px;
+
+}
+
+
+
+/* ==========================================================
+   03 - EVENTO DESTAQUE
+========================================================== */
+
+.evento-destaque{
+
+    background:var(--bg-secondary);
+
+}
+
+
+.evento-grid{
+
+    display:grid;
+
+    grid-template-columns:
+
+    minmax(320px,1fr);
+
+    minmax(320px,1fr);
+
+}
+
+
+.evento-image{
+
+    overflow:hidden;
+
+    border-radius:24px;
+
+    box-shadow:var(--shadow-medium);
+
+}
+
+
+.evento-image img{
+
+    width:100%;
+
+    display:block;
+
+    object-fit:cover;
+
+    transition:.6s;
+
+}
+
+
+.evento-image:hover img{
+
+    transform:scale(1.05);
+
+}
+
+
+.evento-badge{
+
+    display:inline-block;
+
+    margin-bottom:1rem;
+
+    background:rgba(214,179,106,.15);
+
+    color:var(--accent-color);
+
+    padding:.6rem 1rem;
+
+    border-radius:999px;
+
+    font-size:.85rem;
+
+    letter-spacing:2px;
+
+}
+
+
+.evento-content h2{
+
+    margin-bottom:1rem;
+
+}
+
+
+.evento-content p{
+
+    margin-bottom:2rem;
+
+}
+
+
+
+/* ==========================================================
+   04 - INFORMAÇÕES
+========================================================== */
+
+.evento-info{
+
+    background:#090909;
+
+}
+
+
+.info-grid{
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(4,1fr);
+
+    gap:2rem;
+
+}
+
+
+.info-card{
+
+    padding:2rem;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+
+.info-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--accent-color);
+
+    box-shadow:var(--shadow-medium);
+
+}
+
+
+.info-card h3{
+
+    color:var(--accent-color);
+
+    margin-bottom:1rem;
+
+}
+
+
+.info-card p{
+
+    margin:0;
+
+}
+
+/* ==========================================================
+   05 - BENEFÍCIOS
+========================================================== */
+
+.evento-beneficios{
+
+    background:var(--bg-primary);
+
+}
+
+.evento-beneficios h2{
+
+    text-align:center;
+
+    margin-bottom:4rem;
+
+}
+
+.beneficios-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:2rem;
+
+}
+
+.beneficio-card{
+
+    overflow:hidden;
+
+    border-radius:24px;
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+    cursor:pointer;
+
+}
+
+.beneficio-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:var(--shadow-medium);
+
+}
+
+.beneficio-card img{
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:.6s;
+
+}
+
+.beneficio-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.beneficio-card h3{
+
+    padding:1.8rem 2rem .5rem;
+
+    color:var(--accent-color);
+
+}
+
+.beneficio-card p{
+
+    padding:0 2rem 2rem;
+
+}
+
+
+
+/* ==========================================================
+   06 - TIMELINE
+========================================================== */
+
+.evento-programacao{
+
+    background:var(--bg-secondary);
+
+}
+
+.evento-programacao h2{
+
+    text-align:center;
+
+    margin-bottom:5rem;
+
+}
+
+.timeline{
+
+    max-width:900px;
+
+    margin:auto;
+
+    position:relative;
+
+}
+
+.timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:80px;
+
+    top:0;
+
+    bottom:0;
+
+    width:2px;
+
+    background:
+
+    rgba(214,179,106,.35);
+
+}
+
+.timeline-item{
+
+    display:grid;
+
+    grid-template-columns:
+
+    120px
+
+    1fr;
+
+    gap:2rem;
+
+    margin-bottom:3rem;
+
+    position:relative;
+
+}
+
+.timeline-hour{
+
+    color:var(--accent-color);
+
+    font-size:1.2rem;
+
+    font-weight:700;
+
+    text-align:right;
+
+    padding-top:6px;
+
+}
+
+.timeline-content{
+
+    position:relative;
+
+    padding:2rem;
+
+    border-radius:20px;
+
+    background:
+
+    rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.timeline-content::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:-31px;
+
+    top:28px;
+
+    width:16px;
+
+    height:16px;
+
+    border-radius:50%;
+
+    background:var(--accent-color);
+
+    box-shadow:
+
+    0 0 0 5px
+
+    rgba(214,179,106,.15);
+
+}
+
+.timeline-content:hover{
+
+    border-color:var(--accent-color);
+
+    box-shadow:var(--shadow-medium);
+
+}
+
+
+
+/* ==========================================================
+   07 - FAQ
+========================================================== */
+
+.evento-faq{
+
+    background:var(--bg-primary);
+
+}
+
+.evento-faq h2{
+
+    text-align:center;
+
+    margin-bottom:4rem;
+
+}
+
+.faq-grid{
+
+    display:grid;
+
+    gap:2rem;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.faq-card{
+
+    padding:2rem;
+
+    border-radius:20px;
+
+    background:
+
+    rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+.faq-card:hover{
+
+    transform:translateX(8px);
+
+    border-color:var(--accent-color);
+
+    box-shadow:var(--shadow-soft);
+
+}
+
+.faq-card h3{
+
+    color:var(--accent-color);
+
+    margin-bottom:1rem;
+
+}
+
+
+
+/* ==========================================================
+   08 - PRÓXIMOS EVENTOS
+========================================================== */
+
+.proximos-eventos{
+
+    background:var(--bg-secondary);
+
+}
+
+.proximos-eventos h2{
+
+    text-align:center;
+
+    margin-bottom:4rem;
+
+}
+
+.eventos-grid{
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(3,1fr);
+
+    gap:2rem;
+
+}
+
+.evento-card{
+
+    overflow:hidden;
+
+    border-radius:24px;
+
+    background:
+
+    rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+    cursor:pointer;
+}
+
+.evento-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:var(--shadow-medium);
+
+}
+
+.evento-card img{
+
+    width:100%;
+
+    height:230px;
+
+    object-fit:cover;
+
+    display:block;
+
+    transition:.6s;
+
+}
+
+.evento-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.evento-card h3{
+
+    padding:1.8rem 2rem .5rem;
+
+    color:var(--accent-color);
+
+}
+
+.evento-card p{
+
+    padding:0 2rem 2rem;
+
+}
+
+/* ==========================================================
+   09 - CTA
+========================================================== */
+
+.evento-cta{
+
+    background:linear-gradient(
+        180deg,
+        var(--bg-primary),
+        #0c0c0c
+    );
+
+    text-align:center;
+
+}
+
+.evento-cta .container{
+
+    max-width:900px;
+
+}
+
+.evento-cta h2{
+
+    margin-bottom:1.5rem;
+
+}
+
+.evento-cta p{
+
+    max-width:700px;
+
+    margin:0 auto 2.5rem;
+
+}
+
+.evento-cta .btn{
+
+    min-width:240px;
+
+}
+
+
+/* ==========================================================
+   10 - RESPONSIVIDADE
+========================================================== */
+
+/* DESKTOP PEQUENO */
+
+@media (max-width:1200px){
+
+    .evento-grid{
+
+        gap:3rem;
+
+    }
+
+}
+
+
+/* TABLET */
+
+@media (max-width:992px){
+
+    .evento-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .info-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .beneficios-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .eventos-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+    .evento-page section{
+
+        padding:5rem 0;
+
+    }
+
+    .evento-hero{
+
+        min-height:75vh;
+
+        text-align:center;
+
+    }
+
+    .evento-hero-content{
+
+        margin:auto;
+
+    }
+
+    .timeline::before{
+
+        display:none;
+
+    }
+
+    .timeline-item{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .timeline-hour{
+
+        text-align:left;
+
+        margin-bottom:.5rem;
+
+    }
+
+    .timeline-content::before{
+
+        display:none;
+
+    }
+
+    .info-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* ==========================================================
+   11 - TV
+========================================================== */
+
+@media (min-width:1600px){
+
+    .evento-page .container{
+
+        max-width:1500px;
+
+    }
+
+    .evento-page h1{
+
+        font-size:6rem;
+
+    }
+
+    .evento-page h2{
+
+        font-size:3.5rem;
+
+    }
 
 }
