@@ -1,154 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Seja Minha Aluna | Beatriz Góes</title>
 
-    <link rel="stylesheet" href="assets/css/theme.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/contato.css" />
+  </head>
 
-</head>
-
-<body class="contato-page">
-
+  <body class="contato-page">
     <div id="header-container"></div>
 
     <main>
+      <section class="contato-hero">
+        <div class="contato-container">
+          <span class="contato-tag"> VENHA FAZER PARTE DESTA JORNADA </span>
 
-        <section class="contato-hero">
+          <h1>Seja minha aluna</h1>
 
-            <div class="contato-container">
-
-                <span class="contato-tag">
-                    VENHA FAZER PARTE DESTA JORNADA
-                </span>
-
-                <h1>
-                    Seja minha aluna
-                </h1>
-
-                <p>
-                    A dança pode transformar autoestima,
-                    expressão corporal, confiança e bem-estar.
-                </p>
-
-            </div>
-
-        </section>
-
-    <!-- ========================================= -->
-    <!-- FORMULÁRIO DE INTERESSE -->
-    <!-- ========================================= -->
-
-    <section
-        id="formulario-contato"
-        class="lead-form-section">
-
-
-        <div class="container">
-
-            <img
-                src="./assets/icons/email_funny.webp"
-                alt="Contato"
-                class="contact-illustration"
-            >
-
-
-            <h2>Vamos conversar?</h2>
-
-            <p>                
-                Preencha seus dados e entraremos em contato para apresentar as aulas e tirar suas dúvidas.
-            </p>
-            
-            <form
-                id="contact-form"
-                class="lead-form"
-            >
-
-                <input
-                    type="text"
-                    name="nome"
-                    placeholder="Nome completo"
-                    required
-                >
-
-                <input
-                    type="tel"
-                    name="whatsapp"
-                    placeholder="WhatsApp"
-                    required
-                >
-
-                <input
-                    type="email"
-                    name="email"
-                    placeholder="E-mail"
-                >
-
-                <input
-                    type="text"
-                    name="cidade"
-                    placeholder="Cidade"
-                >
-
-                <select
-                    name="interesse"
-                    required
-                >
-                    <option
-                        value=""
-                        selected
-                        disabled
-                    >
-                        Tenho interesse em...
-                    </option>
-
-
-                    <option value="Aula Presencial">
-                        Aula Presencial
-                    </option>
-
-                    <option value="Aula Online">
-                        Aula Online
-                    </option>
-
-                    <option value="Workshop">
-                        Workshop
-                    </option>
-
-                    <option value="Evento">
-                        Evento
-                    </option>
-
-                </select>
-
-                <textarea
-                    name="mensagem"
-                    rows="5"
-                    placeholder="Conte um pouco sobre você..."
-                ></textarea>
-
-                <button type="submit">
-                    Quero fazer parte
-                </button>
-
-            </form>
-
+          <p>
+            A dança pode transformar autoestima, expressão corporal, confiança e
+            bem-estar.
+          </p>
         </div>
+      </section>
 
-    </section>
+      <!-- ========================================= -->
+      <!-- FORMULÁRIO DE INTERESSE -->
+      <!-- ========================================= -->
 
-    <!-- ========================================= -->
-    <!-- WHATSAPP -->
-    <!-- ========================================= -->
-    <!-- 
+      <section id="formulario-contato" class="lead-form-section">
+        <div class="container">
+          <img
+            src="./assets/icons/email_funny.webp"
+            alt="Contato"
+            class="contact-illustration"
+          />
+
+          <h2>Vamos conversar?</h2>
+
+          <p>
+            Preencha seus dados e entraremos em contato para apresentar as aulas
+            e tirar suas dúvidas.
+          </p>
+
+          <form id="contact-form" class="lead-form">
+            <input
+              type="text"
+              name="nome"
+              placeholder="Nome completo"
+              required
+            />
+
+            <input type="tel" name="whatsapp" placeholder="WhatsApp" required />
+
+            <input type="email" name="email" placeholder="E-mail" />
+
+            <input type="text" name="cidade" placeholder="Cidade" />
+
+            <select name="interesse" required>
+              <option value="" selected disabled>Tenho interesse em...</option>
+
+              <option value="Aula Presencial">Aula Presencial</option>
+
+              <option value="Aula Online">Aula Online</option>
+
+              <option value="Workshop">Workshop</option>
+
+              <option value="Evento">Evento</option>
+            </select>
+
+            <textarea
+              name="mensagem"
+              rows="5"
+              placeholder="Conte um pouco sobre você..."
+            ></textarea>
+
+            <button type="submit">Quero fazer parte</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- ========================================= -->
+      <!-- WHATSAPP -->
+      <!-- ========================================= -->
+      <!-- 
     <section class="whatsapp-section">
 
         <div class="container">
@@ -160,7 +101,8 @@
             </p>
 
             <a
-                href="https://wa.me/5511921187806"
+                id="whatsapp-float"
+                href="#"
                 class="btn-whatsapp"
                 target="_blank"
             >
@@ -171,10 +113,10 @@
 
     </section> -->
 
-    <!-- ========================================= -->
-    <!-- INSTAGRAM -->
-    <!-- ========================================= -->
-    <!--
+      <!-- ========================================= -->
+      <!-- INSTAGRAM -->
+      <!-- ========================================= -->
+      <!--
     <section class="instagram-section">
 
         <div class="container">
@@ -195,25 +137,16 @@
         </div>
 
     </section>
-    -->
-
-
-
-    </main>
+    --></main>
 
     <div id="footer-container"></div>
     <div id="whatsapp-container"></div>
-
+    <script src="./assets/js/config/whatsapp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
     <script src="./assets/js/components.js"></script>
-
     <script src="./assets/js/menu.js"></script>
-
     <script src="./assets/js/main.js"></script>
-
     <script src="./assets/js/forms/contato-form.js"></script>
-
-</body>
-
+  </body>
 </html>
